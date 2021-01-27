@@ -1,0 +1,29 @@
+.reviews {
+    &__inner{
+        padding-top: 60px;
+    }
+    &__profile {
+        display: flex;
+        max-width: 915px;
+        margin-bottom: 60px;
+        &-img {
+            width: 169px;
+            height: 169px;
+            margin-right: 61px;
+        }
+        &-name {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+        &-progress {
+            color: #646464;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        &-text {
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}

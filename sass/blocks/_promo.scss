@@ -1,0 +1,54 @@
+.promo{
+    padding: 21px 0 93px 0;
+    background: url('../img/bg/promo_bg.png') center (center/cover) no-repeat ;
+    min-height: 650px;
+    
+    
+        &__wrapper {
+            padding-top: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            color: #fff;
+        }
+        &__title {
+            font-size: 42px;
+            text-transform: uppercase;
+        }
+        &__subtitle {
+            font-size: 24px;
+            text-transform: uppercase;
+            font-weight: 100;
+        }
+        &__cards {
+            margin: 60px 0 65px 0;
+            display: flex;
+            text-align: center;
+        }
+        &__card {
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 14px;
+            width: 136px;
+        }
+
+        &__link{
+            padding-top: 8px;
+            a{
+                text-transform: uppercase;
+                text-decoration: underline;
+                color: #fff;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+}
+

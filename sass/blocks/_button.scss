@@ -1,0 +1,28 @@
+.button{
+    width: 153px;
+    height: 32px;
+    background: $main-color;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    border: none;
+
+    &_main{
+        font-size: 16px;
+        width: 303px;
+        height: 54px;
+    }
+
+    &_submit{
+        font-size: 16px;
+        width: 303px;
+        height: 58px;
+        background: #C70101;
+    }
+    &_buy{
+        width: 135px;
+        height: 44px;
+        transition: 0.2s all;
+    }
+}
