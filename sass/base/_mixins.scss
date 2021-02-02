@@ -1,0 +1,13 @@
+// Ширина макета
+$maxWidth: 1918;
+
+@mixin adaptiv-font($pcSize, $mobSize){
+	$addSize: $pcSize - $mobSize;
+	$addMobSize: $pcSize + $mobSize * .7;
+	@media (max-width: 767px){font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 320px) / #{$maxWidth}));}
+	@media (min-width: 768px){font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / #{$maxWidth}));}
+	@media (min-width: #{$maxWidth + px}){font-size: #{$pcSize + px};}
+
+	// Команда установки адаптивного шрифта
+	// @include adaptiv-font (60px,30px)
+}

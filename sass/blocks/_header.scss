@@ -2,9 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     &__logo{
         width: 250px;
+        margin-right: 10px;
         img{
             width: 100%;
         }

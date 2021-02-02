@@ -1,5 +1,6 @@
 @import "base/variables";
 @import "base/container";
+@import "base/mixins";
 @import "blocks/promo";
 @import "blocks/button";
 @import "blocks/header";
@@ -19,3 +20,4 @@
     font-family: 'Museo Sans Cyrl 500',sans-serif;
 }
 
+@import "base/media";
