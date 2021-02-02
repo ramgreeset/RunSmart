@@ -1,12 +1,12 @@
 .title{
     text-align: center;
-    font-size: 30px;
+    @include adaptiv-font (30, 18);
     text-transform: uppercase;
     color: #000;
 
     &_consultation {
         text-align: left;
-        font-size: 36px;
+        @include adaptiv-font (36, 18);
         font-weight: 700;
         margin-bottom: 8px;
         color: #fff;
